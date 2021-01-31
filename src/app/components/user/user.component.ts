@@ -2,8 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Subscription, Observable } from 'rxjs';
 
-import { UserService } from '../services/user.service';
-import { User } from '../models/user.model';
+import { UserService } from '../../core/services/user.service';
 
 @Component({
   selector: 'app-user',

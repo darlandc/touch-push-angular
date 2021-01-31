@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { switchMap, filter, shareReplay } from 'rxjs/operators';
 
-import { User } from './../models/user.model';
+import { User } from '../../shared/models/user.model';
 
 const baseUrl = 'https://jsonplaceholder.typicode.com/users';
 
